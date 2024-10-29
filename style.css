@@ -91,6 +91,7 @@ body,html {
     display: flex;
     border-radius: 15px;
     border-style: none;
+    box-shadow: 0px 0px 30px -10px rgb(231, 254, 21);
 }
 .arrowimageblock {
     height: 150px;
@@ -1091,6 +1092,7 @@ body,html {
     width: 220px;
     height: 70px;
     display: flex;
+    box-shadow: 0px 0px 30px -10px rgb(231, 254, 21);
 }
 .telegram-img-row {
     height: 100%;
@@ -1126,6 +1128,7 @@ body,html {
     width: 220px;
     height: 70px;
     display: flex;
+    box-shadow: 0px 0px 30px -10px rgb(255, 180, 253);
 }
 .email-chat-img-row {
     height: 100%;
