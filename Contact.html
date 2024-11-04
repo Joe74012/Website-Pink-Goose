@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="Css/style.css">
     <meta charset="UTF-8">
@@ -7,8 +8,9 @@
     <!--website titel-->
     <title>Pink Goose | Contact</title>
 </head>
+
 <body>
-      <!--start top pagina rij-->
+    <!--start top pagina rij-->
     <header class="toppage">
         <div class="Name">
             <h1 class="White-Text">Pink <span class="goose">Goose</span></h1>
@@ -24,9 +26,9 @@
                 <h2 class="White-Text">Login</h2>
             </button>
         </div>
-         <!--einde top pagina rij-->
+        <!--einde top pagina rij-->
     </header>
-     <!--start contact pagina rij-->
+    <!--start contact pagina rij-->
     <div class="Whats-your-GOOSE-idea-row">
         <h1 class="White-Text">What's your GOOSE idea?</h1>
     </div>
@@ -71,35 +73,22 @@
     <div class="Send-A-Post-Goose-row">
         <div class="Send-A-Post-Goose-frame">
             <h1 class="Send-A-Post-Goose-text">Send a post Goose</h1>
-            <div class="Send-A-Post-Goose-email-row">
-                <form>
-                    <input class="weekly-digest-email-frame" type="text" name="email" placeholder="   Your email">
-                </form>
-            </div>
-            <div class="Send-A-Post-Goose-Name-row">
-                <form>
-                    <input class="weekly-digest-name-frame" type="text" name="input" placeholder="   Your name">
-                </form>
-            </div>
-            <div class="Send-A-Post-Goose-Message-row">
-                <form>
-                    <textarea placeholder="Your message" class="weekly-digest-message-frame" id="Name" name="Name"
-                        rows="5" cols="40"></textarea>
-                </form>
-            </div>
-            <div class="Send-A-Post-Goose-Color-Of-Goose-row">
-                <form>
+            <div class="Send-A-Post-Goose">
+                <form class="form-field">
+                    <input class="weekly-digest-email-frame" type="email" name="email" placeholder="   Your email">
+                    <input class="weekly-digest-name-frame" type="name" name="Name" placeholder="   Your name">
+                    <textarea placeholder="Your message" class="weekly-digest-message-frame" id="Name" name="Name"></textarea>
                     <select class="weekly-digest-message-goosecolor" name="GooseColors" id="GooseColors">
                         <option class="black-background" value="Red">Red</option>
                         <option class="black-background" value="White">White</option>
-                        <option class="black-background" value="Blue">Blue</option>
+                        <option class   ="black-background" value="Blue">Blue</option>
                         <option class="black-background" value="Black">Black</option>
                     </select>
                 </form>
             </div>
             <!--onzichtbare rij-->
             <div class="invisible-row-under-goose-color-select"></div>
-             <!--versturen knop-->
+            <!--versturen knop-->
             <div class="ButtonToRight-Post-Goose">
                 <button class="submit-button-post-goose" type="submit">Send</button>
             </div>
@@ -148,4 +137,5 @@
         <!--einde bodem pagina rij-->
     </footer>
 </body>
+
 </html>

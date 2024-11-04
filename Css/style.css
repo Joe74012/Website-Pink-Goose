@@ -793,7 +793,13 @@ body,html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(0, 0, 0);
 }
-
+.Send-A-Post-Goose {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .size-text-big {
     font-size: 40px;
     font-weight: bold;
@@ -1362,18 +1368,27 @@ body,html {
 }
 .Send-A-Post-Goose-row {
     width: 100%;
-    height: 500px; 
+    height: 400px;
     display: flex; 
     justify-content: center; 
     align-items: center;
 }
 .Send-A-Post-Goose-frame {
     width: 575px;
-    height: 700px; 
+    height: 600px; 
     border-radius: 15px; 
     background-color: rgba(127, 127, 127, 0.092); 
     border-style: solid; 
     border-color: #cdaaff2d;
+}
+.form-field {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .Invisble-block-for-contact {
     width: 100%;
@@ -1387,14 +1402,6 @@ body,html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     padding: 10px;
-}
-.Send-A-Post-Goose-email-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    height: 50px;
 }
 .Send-A-Post-Goose-email-frame{
     width: 300px;
@@ -1422,13 +1429,6 @@ body,html {
     border-style: solid;
     display: flex;
     border-color: #cdaaff1b;
-}
-.Send-A-Post-Goose-Message-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 250px;
 }
 .text-area{
     display: flex;
@@ -1476,8 +1476,9 @@ body,html {
 .ButtonToRight-Post-Goose {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     width: 96%;
+    height: 110px;
 }
 .submit-button-post-goose {
     background-color: #ceaaff;
