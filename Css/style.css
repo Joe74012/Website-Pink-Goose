@@ -794,6 +794,20 @@ body,html {
     color:rgb(0, 0, 0);
 }
 
+.size-text-big {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(255, 255, 255);
+}
+
+.Invisible-text-big {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(255, 255, 255, 0.237);
+}
+
 .decrypt-logo-frame {
     width: 140px;
     height: 60px;
